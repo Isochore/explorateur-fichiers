@@ -1,0 +1,67 @@
+.explo_style {
+	margin-top: -20px;
+	background-color: rgb(46, 45, 45);
+	border-bottom-right-radius: 18px;
+	overflow-y: scroll;
+	max-height: 696px;
+
+}
+
+.fichier {
+	color: antiquewhite;
+}
+
+.elem {
+	transition: opacity 0.5s;
+	width: 150px;
+	max-height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		height: 50%;
+		width: 50%;
+	}
+}
+
+.fichier:hover {
+	cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgba(46, 45, 45,0);
+	border-bottom-right-radius: 18px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.cut-text { 
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+	width: 120px; 
+	white-space: nowrap;
+  }
+
+  .backgroundParent {
+	  transition: 0.5s;
+	  background-color: rgb(114, 114, 111);
+	  border-radius: 18px;
+  }

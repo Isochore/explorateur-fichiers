@@ -1,0 +1,17 @@
+{% if isFile == false %}
+
+
+{% for fichier_arr in liste_fichier %}
+
+	<div class="elem">
+	<img class="fichier icon pt-3" data-path="{{fichier_arr}}" src="./img/icones/document.svg" alt="icone du dossier">
+	<p class="fichier pr-2 pl-2 cut-text" data-path="{{fichier_arr}}">{{fichier_arr}}</p>
+	</div>
+
+{% endfor %}
+
+{% else %}
+
+	<div class="elem">{{file}}</div>
+
+{% endif %}

@@ -1,0 +1,12 @@
+@import 'navbar';
+@import 'gridicon';
+@import 'pathmenuleft';
+@import 'media_small_devices';
+@import 'media_531-575px';
+@import 'media_576-767px';
+@import 'media_768-991px';
+
+.elem {
+	opacity: 0;
+	transition: all 0.2s;
+}

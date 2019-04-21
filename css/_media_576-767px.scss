@@ -1,0 +1,52 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    .background_nav {
+        height: 102px;
+
+        .div_path::-webkit-scrollbar {
+            display: none;
+        }
+
+        .div_path {
+            overflow-x: scroll;
+            margin: auto;
+            width: 80%;
+        }
+
+        .center_top {
+            img {
+                width: 30px;
+                padding-top: 1rem;
+                padding-bottom: 0.5rem;
+            }
+
+            margin-top: 0;
+        }
+    }
+
+    .elem {
+        width: 117px;
+        max-height: 94px;
+    }
+
+    .aside_style {
+        display: none !important;
+    }
+
+    .explo_style {
+        border-bottom-left-radius: 18px;
+        max-height: 75vh;
+    }
+
+    #grille {
+        justify-content: center;
+    }
+
+    .padding_top_xs {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+
+    .scrollbar{
+        margin-top: 11px!important;
+    }
+}

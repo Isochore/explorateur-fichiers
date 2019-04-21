@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .elem{
+        width: 114px!important;
+        max-height: 94px;
+
+    }
+
+    .explo_style{
+        max-height: 59vh;
+        padding-right: 50px!important;
+        padding-left: 20px!important;
+    }
+
+    .test{
+        margin-left: 80px!important;
+    }
+
+
+ .aside_style {
+        max-height: 59vh;
+
+        p::before{
+            display: inline-block;
+            text-align: center;
+            background-size: 20px, 20px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    
+    
+
+}

@@ -1,0 +1,37 @@
+@media (min-width: 531px) and (max-width: 575px) {
+    .background_nav {
+        height: 102px;
+        .div_path::-webkit-scrollbar {
+            display: none;
+        }
+
+        .div_path {
+            overflow-x: scroll;
+            width: 60%;
+        }
+
+        .center_top {
+            img {
+                width: 30px!important;
+                padding-top: 1rem;
+                padding-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .aside_style {
+        display: none;
+    }
+
+    .explo_style {
+        max-height: 59vh;
+        border-bottom-left-radius: 18px;
+        margin-top: 11px !important;
+    }
+
+    .elem {
+        width: 130px;
+        max-height: 94px;
+    }
+
+}
